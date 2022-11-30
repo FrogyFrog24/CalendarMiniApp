@@ -1,0 +1,30 @@
+.p1__medium {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+}
+.p2__medium {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+.p2__semibold {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+.p3__medium {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+.p3__semibold {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}

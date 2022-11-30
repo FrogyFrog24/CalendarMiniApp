@@ -1,0 +1,17 @@
+.arrow_button {
+  margin-right: 10px;
+}
+
+.arrow_button svg {
+  width: fit-content;
+  height: fit-content;
+  transform: rotate(180deg);
+  transition: 0.2s ease;
+}
+.arrow_button:hover svg {
+  transform: rotate(540deg);
+}
+
+.arrow_button:active svg {
+  transform: translate(10px);
+}

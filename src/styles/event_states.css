@@ -1,0 +1,11 @@
+.appointed {
+  background-color: var(--green);
+}
+
+.inprogress {
+  background-color: var(--orange);
+}
+
+.finished {
+  background-color: var(--red);
+}

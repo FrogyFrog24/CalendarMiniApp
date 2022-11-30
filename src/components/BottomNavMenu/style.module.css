@@ -18,10 +18,13 @@
   padding: 9px 25px 0 !important;
 }
 
+.nav_item svg path,
+.nav_item span {
+  transition: 0.2s ease;
+}
+
 .nav_item.active svg path,
 .nav_item.active span,
-.nav_item:hover svg path,
-.nav_item:hover span,
 .nav_item:active svg path,
 .nav_item:active span {
   color: var(--blue);

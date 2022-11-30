@@ -1,170 +1,31 @@
+@import url(./clear_easy.css);
+@import url(./colors.css);
+@import url(./event_states.css);
+@import url(./h_styles.css);
+@import url(./p_styles.css);
+@import url(./c_styles.css);
+
 * {
   box-sizing: border-box;
   font-family: "Gilroy";
 }
 
-:root {
-  --red: #f35b76;
-  --blue: #5f7eee;
-  --grey: #88868d;
-  --black: #000;
-  --green: #52ceb8;
-  --white: #ffffff;
-  --orange: #ff961c;
-  --yellow: #ffe896;
-  --dark-grey: #333333;
-  --light-red: #fddee4;
-  --light-grey: #f4f4f7;
-  --light-blue: #dfe5fc;
-  --medium-grey: #cccccc;
-  --alternative-blue: #86d8fb;
-  --white-transparent: rgba(255, 255, 255, 0.7);
-}
-
-.appointed {
-  background-color: var(--green);
-}
-
-.inprogress {
-  background-color: var(--orange);
-}
-
-.finished {
-  background-color: var(--red);
-}
-
 .wrapper {
   padding: 0 15px;
+  position: relative;
+  z-index: 2;
+}
+
+nav {
+  z-index: 3;
+}
+
+.bg-color--light {
+  position: fixed;
+  width: 100%;
   height: 100vh;
-}
-
-body,
-html {
-  padding: 0;
-  margin: 0;
-  background-color: rgb(44, 44, 44);
-}
-
-body::-webkit-scrollbar {
-  width: 0;
-  overflow: -moz-scrollbars-none;
-  -ms-overflow-style: none;
-}
-
-.theme-light {
-  background-size: cover;
-}
-
-button,
-button:visited,
-a,
-a:visited,
-a:active {
-  text-decoration: none;
-  outline: none;
-  color: #000;
-  cursor: pointer;
-  border: none;
-  background: none;
-}
-button:hover,
-a:hover {
-  cursor: pointer;
-}
-
-.p1__medium {
-  font-weight: 500;
-  font-size: 21px;
-  line-height: 28px;
-  letter-spacing: -0.01em;
-}
-.p2__medium {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 21px;
-}
-.p2__semibold {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 21px;
-}
-.p3__medium {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 19px;
-}
-.p3__semibold {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 19px;
-}
-
-.c2__medium {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-}
-.c2__semibold {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-}
-.c3__medium {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 14px;
-}
-.c3__semibold {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 14px;
-}
-
-h1 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 62px;
-  line-height: 62px;
-  letter-spacing: -0.01em;
-}
-h2 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 42px;
-}
-h3 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 40px;
-}
-h4 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 27px;
-  line-height: 30px;
-  letter-spacing: -0.01em;
-}
-h5 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 21px;
-  line-height: 24px;
-  letter-spacing: -0.01em;
-}
-h6 {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 21px;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: linear-gradient(180deg, #ffffff 0%, #fddee4 58.65%, #dfe5fc 100%);
 }
