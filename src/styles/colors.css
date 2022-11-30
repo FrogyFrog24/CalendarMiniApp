@@ -2,7 +2,7 @@
     --red: #f35b76;
     --blue: #5f7eee;
     --grey: #88868d;
-    --black: #000;
+    --black: #000000;
     --green: #52ceb8;
     --white: #ffffff;
     --orange: #ff961c;
@@ -13,5 +13,5 @@
     --light-blue: #dfe5fc;
     --medium-grey: #cccccc;
     --alternative-blue: #86d8fb;
-    --white-transparent: rgba(255, 255, 255, 0.7);
+    --white-transparent: rgba(255, 255, 255, 0.7 );
   }

@@ -12,7 +12,6 @@ import { useLocation, useNavigate } from "react-router";
 const BottomNavMenu = ({ title }) => {
   const location = useLocation();
   const navigate = useNavigate();
-
   return (
     <nav className={s.nav_list}>
       <CustomButton
@@ -21,6 +20,7 @@ const BottomNavMenu = ({ title }) => {
         <EventsIcon />
         <span className={cx("c1__semibold", s.nav_item__text)}>События</span>
       </CustomButton>
+
       <CustomButton
         style={cx(
           s.nav_item,

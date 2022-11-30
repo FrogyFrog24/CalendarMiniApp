@@ -13,10 +13,6 @@
   justify-content: center;
   margin-left: auto;
 }
-.card_action svg {
-  width: 28px;
-  height: 28px;
-}
 
 .card_item {
   display: flex;

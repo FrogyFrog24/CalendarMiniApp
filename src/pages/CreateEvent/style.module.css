@@ -1,0 +1,6 @@
+.events_list {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 107.5px;
+  gap: 10px;
+}
