@@ -6,13 +6,16 @@
 
 .card_action {
   padding: 0;
-  width: 28px;
-  height: 28px;
+  padding-left: 10px;
   background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: auto;
+}
+.card_action svg {
+  width: 28px;
+  height: 28px;
 }
 
 .card_item {
@@ -23,7 +26,7 @@
   padding: 15px 20px;
   background: var(--white);
   border-radius: 20px;
-  min-width: 375px;
+  width: 100%;
 }
 
 .card_info__date {

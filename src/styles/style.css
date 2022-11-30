@@ -35,6 +35,7 @@
 
 .wrapper {
   padding: 0 15px;
+  height: 100vh;
 }
 
 body,
@@ -46,15 +47,8 @@ html {
 
 body::-webkit-scrollbar {
   width: 0;
-}
-
-/* ie 10+ */
-body {
-  -ms-overflow-style: none;
-}
-
-body {
   overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
 }
 
 .theme-light {
