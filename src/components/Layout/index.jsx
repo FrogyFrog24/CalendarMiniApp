@@ -6,12 +6,13 @@ import Header from "../Header";
 
 const Layout = () => {
   return (
-    <div className="theme-light ">
+    <div>
       <div className="wrapper">
         <Header title="События" />
         <Outlet />
       </div>
       <BottomNavMenu />
+      <div className="bg-color--light"></div>
     </div>
   );
 };
